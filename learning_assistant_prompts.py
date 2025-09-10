@@ -1,5 +1,3 @@
-from langchain.prompts import PromptTemplate
-
 prompts = {
     "question": """
     You are a helpful teaching assistant. Based on the following study material:
