@@ -52,7 +52,6 @@ Follow the UI to upload a PDF, generate questions, and get answers.
 - langchain
 - langchain-community
 - openai
-- tiktoken
 - pypdf
 - chromadb
 - langchain-openai

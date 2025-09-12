@@ -1,3 +1,6 @@
+# learning_assistant_prompts.py
+# Prompt templates for generating questions and answers using LLMs in the Personal Learning Assistant app.
+
 prompts = {
     "question": """
     You are a helpful teaching assistant. Based on the following study material:
@@ -20,3 +23,6 @@ prompts = {
     Answer:
     """
 }
+# The 'prompts' dictionary contains two templates:
+# - 'question': Used to instruct the LLM to generate practice questions from study material.
+# - 'answer': Used to instruct the LLM to answer a selected question using relevant context.
