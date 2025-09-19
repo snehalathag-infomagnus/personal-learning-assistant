@@ -17,25 +17,32 @@ A Streamlit-based app that helps users study more effectively by generating prac
 
 ## Installation
 1. Clone this repository:
-   ```powershell
+   ```cmd
    git clone https://github.com/snehalathag-infomagnus/personal-learning-assistant.git
    cd personal-learning-assistant
    ```
-2. Install dependencies:
-   ```powershell
-   pip install -r requirements.txt
-   ```
-3. Set up your Azure OpenAI credentials in a .env file:
+2. Set up your Azure OpenAI credentials in a .env file:
    ```
    AZURE_OPENAI_API_KEY=your-key-here
    AZURE_OPENAI_ENDPOINT=https://your-endpoint.openai.azure.com/
-   AZURE_OPENAI_DEPLOYMENT=your-deployment-name
+   AZURE_OPENAI_DEPLOYMENT_MODEL=your-deployment-name
    AZURE_OPENAI_EMBEDDING_DEPLOYMENT=your-embedding-deployment
    ```
-
+4. Create a python virtual environment
+   ```cmd
+   python -m venv .venv
+   ```
+5. Activate virtual environment
+   ```cmd
+   .venv\Scripts\Activate
+   ```
+6. Install dependencies:
+   ```cmd
+   pip install -r requirements.txt
+   ```
 ## Usage
 Run the Streamlit app:
-```powershell
+```cmd
 streamlit run learning_assistant.py
 ```
 Follow the UI to upload a PDF, generate questions, and get answers.
